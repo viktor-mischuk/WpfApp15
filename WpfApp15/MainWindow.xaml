@@ -1,0 +1,129 @@
+﻿<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1500" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Image/back.jpg" Stretch="Fill" Opacity="0.5"/>
+        </Grid.Background>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph>
+                    <Run Foreground="Red" FontSize="40" FontWeight="Bold">Д</Run>ома из бруса строятся по тому же принципу, что и избы в древности. Отличается лишь форма элементов, используемых для сбора сруба, точней их сечение. Избы и терема возводились из круглых бревен, современные же жилища – из прямоугольных брусьев.
+Брус – готовый пиломатериал, для изготовления которого используется цельный древесный массив. Данный материал отличается долговечностью, экологичностью и простотой монтажа. Подходит он для возведения сооружений, независимо от размера и модификаций. Брус хорошо сохраняет тепло. Его эксплуатационные качества схожи с бревном.                 
+Поскольку дома из бруса – это экологически чистые жилые сооружения, которые наделены неповторимой природной эстетикой, к ним проявляют повышенный интерес частные застройщики, туристические компании и владельцы загородных участков.
+Благодаря высокому спросу, брус считается материалом №1 в вопросе малоэтажного строительства. Это очевидно, поскольку деревянные строения обладают рядом неоспоримых преимуществ.
+                </Paragraph>
+                <Paragraph>
+                    <Bold>К главным достоинствам бруса можно отнести:</Bold> 
+                </Paragraph>
+                <List MarkerStyle="Disc">
+                    <ListItem>
+                        <Paragraph>
+                            эстетически привлекательную форму;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            приемлемую стоимость;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            прочность и практичность;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            простоту и быстроту монтажа;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            качественную теплоизоляцию;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            отсутствие щелей;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            экологичность.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Bold>Разновидности бруса</Bold> 
+                </Paragraph>
+                <Paragraph>
+                    На современном строительном рынке представлено несколько видов бруса. Все разновидности отличаются визуально и обладают своими уникальными техническими характеристиками. Основные три вида – это брус:
+                </Paragraph>
+                <List>
+                    <ListItem>
+                        <Paragraph>
+                            непрофилированный;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            профилированный;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            клееный.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Bold>Этапы строительства домов из бруса</Bold>
+                </Paragraph>
+                <Paragraph>
+                    <Image Source="Image/house.jpg" Width="600" Height="500"/>
+                </Paragraph>
+
+                <Paragraph>
+                    <Bold>Типы фундамента</Bold>
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="Image/1.jpg" Width="200" Height="200"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="Image/2.jpg" Width="200" Height="200"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="Image/3.jpg" Width="200" Height="200"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="Image/4.jpg" Width="200" Height="200"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
